@@ -15,7 +15,7 @@ services:
     environment:
       JWT_SECRET_KEY: dOxZYTTZgXKMHkqLBIQVImayQXAVWdzGBPuFJKggzcgvgPJPXpWzqzKaUOIOGGIr
     ports:
-      - 13358:80
+      - 13378:13378
     volumes:
       - /volume1/docker/audiobookshelf:/config:rw
       - /volume1/docker/audiobookshelf/audiobooks:/audiobooks:rw
