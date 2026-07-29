@@ -19,6 +19,5 @@ services:
     volumes:
       - /volume1/docker/audiobookshelf:/config:rw
       - /volume1/docker/audiobookshelf/audiobooks:/audiobooks:rw
-      - /volume1/docker/audiobookshelf/ebooks:/ebooks:rw
       - /volume1/docker/audiobookshelf/metadata:/metadata:rw
     restart: on-failure:5
